@@ -23,7 +23,7 @@ const database = {
 
 
 app.get('/',function(req,res){
-    res.send(database.users)
+    res.send("<h1>welcome home</h1>")
 })
 
 app.post('/register',function(req,res){
