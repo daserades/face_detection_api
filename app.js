@@ -36,4 +36,4 @@ app.post('/register',function(req,res){
     res.json(database.users)
 });
 
-app.listen(2000,console.log("app running"))
+app.listen(process.env.PORT || 2000,console.log("app running"))
